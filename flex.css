@@ -1,0 +1,213 @@
+body {
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   }
+   .cajitas{
+      display: flex;
+      height: 1100px;
+      width: 1300px;
+      flex-direction: column;
+      margin: auto;
+   }
+   .bordesCajitas {
+       
+       color: white;
+       border: 4px solid black;
+       
+       margin: 8px;
+       border-radius: 10PX;
+   }
+   .temporal {
+       
+   }
+   .primero {
+       flex: 1;
+       border-color: rgb(35, 6, 103);
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      text-align: left;
+   }
+   h1 {
+       font-size: 20pt;
+       margin-left: 30pt;
+   }
+   .vacioAncho {
+       flex: 1;
+   }
+   .textoAncho {
+       flex:3
+   }
+   .segundo {
+       flex: 3;
+       display: flex;
+       flex-direction: column;
+       
+   }
+   .tercero {
+       flex: 1;
+       display: flex;
+       flex-direction: row;
+   }
+   .cuarto {
+       flex: 1;
+       display: flex;
+       flex-direction: row;
+   }
+   .quinto {
+       flex: 1;
+       border-color: pink;
+       display: flex;
+       flex-direction: column;
+   }
+   .sexto {
+       flex: 1;
+       border-color: rgb(227, 99, 120);
+       display: flex;
+       flex-direction: column;
+   }
+   .septimo {
+       flex: 1;
+       border-color: rgb(184, 200, 38);
+       display: flex;
+       flex-direction: column;
+   }
+   .octavo {
+       flex: 1;
+   }
+   .noveno {
+       flex: 1;
+       border-color: rgb(90, 182, 232);
+       display: flex;
+       flex-direction: column;
+   }
+   .decimo {
+       flex: 1;
+   }
+   .cajaAncha {
+       list-style-type: none;
+       
+      
+   }
+   .listaAncha::before{
+       content: '\2714';
+       font-size: 16pt;
+   }
+   .undecimo {
+   flex: 1;
+   font-size: 17pt;
+   }
+   .duodecimo {
+   flex: 1.5 ;
+   display: flex;
+   }
+   .decimoTercero {
+   flex:3;
+   }
+   .decimoCuarto{
+   flex: 1.5;
+   color: black;
+   font-weight: bold;
+   text-align: center;
+   background-color: pink;
+   padding-top: 6pt;
+   margin-top: 38pt;
+   margin-bottom: 20pt ;
+   margin-left: 63pt ;
+   margin-right:63pt ;
+   border-radius: 20px 20px ;
+   }
+   .mes {
+       color:black ;
+       background-color:rgb(227, 99, 120) ;
+       margin-top: 17pt;
+       margin-bottom: 25pt;
+   }
+   
+   .duo {
+    flex: 1.5;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(184, 200, 38);
+    padding-top: 8pt;
+    margin-top: 63pt;
+    margin-bottom: 45pt;
+    margin-left: 63pt;
+    margin-right: 63pt;
+   border-radius: 20px 20px ;
+   }
+   .familiar {
+       flex: 1.5;
+       color: black;
+       font-weight: bold;
+   text-align: center;
+   background-color: rgb(90, 182, 232);
+   padding-top: 5pt;
+   margin-top: 35pt;
+   margin-bottom:65pt ;
+   margin-left: 63pt ;
+   margin-right:63pt ;
+   border-radius: 20px 20px ;
+   }
+   .decimoQuinto {
+   flex: 2;
+   font-size: 10pt;
+   text-align:center;
+   margin-bottom: 20pt;
+   }
+   
+   .decimoSeptimo {
+   flex: 4;
+   padding-left: 8pt;
+   
+   }
+   .decimoOctavo {
+   flex: 1;
+   }
+   .decimoNoveno {
+   flex: 1.5;
+   }
+   .vigesimo {
+       flex: 2.5;
+   }
+   
+   h2 {
+       font-size: 16pt;
+       line-height: 50% ;
+   }
+   h3 {
+       font-size: 10pt;
+   }
+   h4 {
+       font-size: 8pt;
+   }
+   li.cajitasli {
+       font-size: 12pt;
+       margin-left: 5pt;
+       margin-top: 4pt;
+   }
+   .botonChico1{
+       margin-top: 5pt;
+       margin-left: 5pt;
+       margin-bottom: 30pt;
+       margin-right: 110pt;
+       border: 1px solid pink;
+       background-color: pink;
+       border-radius: 10px 10px 10px 10px;
+       color: black;
+       font-weight: bold;
+   
+   }
+   .botonChico2{
+       margin-top: 5pt;
+       margin-left: 5pt;
+       margin-bottom: 30pt;
+       margin-right: 128pt;
+       border: 1px solid rgb(227, 99, 120);
+       background-color: rgb(227, 99, 120);
+       border-radius: 10px 10px 10px 10px;
+       color: black;
+       font-weight: bold;
+   
+   }
